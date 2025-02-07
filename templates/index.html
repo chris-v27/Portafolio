@@ -37,9 +37,7 @@
         <h2 class="about__title">SOBRE MI</h2>
         <div class="about__info info-block">
           <p class="info-block__text">
-            Inform about me Inform about me Inform about me Inform about me
-            Inform about me Inform about me Inform about me Inform about me
-            Inform about me
+            Soy un desarrollador con un gran repertorio de habilidades en la programación, como la resolución de problemas y crear soluciones eficaces a medida que se avanza en el proyecto
           </p>
           <img
             class="info-block__img"
@@ -127,6 +125,7 @@
         {% endif %}
       </section>
       <!-- Formulario de contacto -->
+      {% block content %}
       <section class="main__feedback feedback" id="feedback">
         <h2 class="feedback__title">FEEDBACK</h2>
         <form action="" method="POST" class="feedback__form form">
@@ -139,6 +138,7 @@
           <button class="form__button" type="submit">ENVIAR</button>
         </form>
       </section>
+      {% endblock %}
     </main>
     <!-- Pie de página con enlaces a redes sociales -->
     <footer>

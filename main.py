@@ -14,9 +14,8 @@ def index():
 # Habilidades dinámicas
 @app.route('/', methods=['POST'])
 def process_form():
-
-    E-mail_text = request.form.get("email")
-    Comment_text = request.form.get("text")
+    #e-mail_text = request.form.get("email")
+    #comment_text = request.form.get("text")
     button_python = request.form.get('button_python')
     button_discord = request.form.get('button_discord')
     button_html = request.form.get('button_html')
